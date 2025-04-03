@@ -277,6 +277,22 @@ main {
     color: #5D0CE8;
 }
 
+/* Style des liens dans la section About */
+.about-content a {
+    font-weight: bold;
+    color: #a355ec;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.about-content a:hover {
+    color: #8A2BE2;
+}
+
+.about-content a:active {
+    color: #a355ec;
+}
+
 .project-tech {
     display: flex;
     flex-wrap: wrap;
@@ -287,6 +303,27 @@ main {
     font-family: 'Fira Code', monospace;
     font-size: 0.8rem;
     color: #8A2BE2;
+}
+
+/* Bouton de téléchargement */
+.download-btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    background-color: transparent;
+    color: #8A2BE2;
+    border: 1px solid #8A2BE2;
+    border-radius: 5px;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: rgba(138, 43, 226, 0.1);
+    transform: translateY(-2px);
 }
 
 /* Responsive */
